@@ -8,6 +8,8 @@ It automatically installs PiFmRds, sets up systemd services, and provides a clea
 
 Basically it makes your pirate radio a breeze to setup
 
+Credit to ChristopheJacquet for PiFmRds, which is what this is built off of
+
 -----------------------------------------
 **Features**:
 
@@ -61,3 +63,15 @@ Check status
 Edit config manually
 
 `sudo nano /opt/pirateradio/radio.conf`
+
+-----------------------------------------
+
+**File Structure**
+
+/opt/pirateradio/
+├── radio.conf            (settings)
+├── radio_loop.sh         (transmit loop)
+├── web/
+│   └── app.py            (dashboard)
+└── PiFmRds/              (auto-cloned source)
+    └── src/pi_fm_rds     (FM transmitter binary)
