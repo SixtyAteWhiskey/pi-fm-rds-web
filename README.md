@@ -24,7 +24,7 @@ It automatically installs PiFmRds, sets up systemd services, and provides a clea
 
 **Installation**
 
-wget https://github.com/<yourusername>/pi-fm-rds-web/releases/download/v2.0/pirateradio_2.0_all.deb
+wget https://github.com/<yourusername>/pi-fm-rds-web/releases/download/v2.0/pi-fm-rds-web.deb
 
 sudo apt install ./pi-fm-rds-web.deb
 
