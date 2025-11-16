@@ -6,6 +6,8 @@ pi-fm-rds-web is a web-configurable FM radio transmitter system for Raspberry Pi
 
 It automatically installs PiFmRds, sets up systemd services, and provides a clean, mobile-friendly dashboard on port 8080 to manage everything.
 
+Basically it makes your pirate radio a breeze to setup
+
 -----------------------------------------
 **Features**:
 
@@ -39,3 +41,16 @@ Breadboard jumper wire works great for this!
 
 I'll be creating a video for this at which point I'll link it here!
 
+**Commands**
+
+- Restart the service
+sudo systemctl restart pirateradio.service
+
+- Restart web app
+sudo systemctl restart pirateradio-web.service
+
+- Check status
+systemctl status pirateradio.service
+
+- Edit config manually
+sudo nano /opt/pirateradio/radio.conf
