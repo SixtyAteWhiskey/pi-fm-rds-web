@@ -43,18 +43,21 @@ I'll be creating a video for this at which point I'll link it here!
 
 **Commands**
 
-- Restart the service
-- 
+Restart the service
+
 sudo systemctl restart pirateradio.service
 
-- Restart web app
-- 
+
+Restart web app
+
 sudo systemctl restart pirateradio-web.service
 
-- Check status
-- 
+
+Check status
+
 systemctl status pirateradio.service
 
-- Edit config manually
-- 
+
+Edit config manually
+
 sudo nano /opt/pirateradio/radio.conf
