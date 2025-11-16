@@ -67,7 +67,7 @@ Edit config manually
 -----------------------------------------
 
 **File Structure**
-
+`
 /opt/pirateradio/
 ├── radio.conf            (settings)
 ├── radio_loop.sh         (transmit loop)
@@ -75,3 +75,4 @@ Edit config manually
 │   └── app.py            (dashboard)
 └── PiFmRds/              (auto-cloned source)
     └── src/pi_fm_rds     (FM transmitter binary)
+`
