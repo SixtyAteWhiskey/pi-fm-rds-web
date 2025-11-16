@@ -38,5 +38,5 @@ Raspberry Pi (Zero W, 2, 3, 4, or 5)
 
 Breadboard jumper wire works great for this!
 
-
+I'll be creating a video for this at which point I'll link it here!
 
