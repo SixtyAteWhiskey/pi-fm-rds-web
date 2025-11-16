@@ -45,19 +45,19 @@ I'll be creating a video for this at which point I'll link it here!
 
 Restart the service
 
-sudo systemctl restart pirateradio.service
+`sudo systemctl restart pirateradio.service`
 
 
 Restart web app
 
-sudo systemctl restart pirateradio-web.service
+`sudo systemctl restart pirateradio-web.service`
 
 
 Check status
 
-systemctl status pirateradio.service
+`systemctl status pirateradio.service`
 
 
 Edit config manually
 
-sudo nano /opt/pirateradio/radio.conf
+`sudo nano /opt/pirateradio/radio.conf`
